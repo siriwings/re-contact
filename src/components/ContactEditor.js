@@ -32,6 +32,8 @@ class ContactEditor extends Component {
     }
 
     handleClick(){
+
+        //Contacts컴포넌트: selectedKey가 -1이 아니라면 true를, 맞다면 false를 반환한 값
         if(!this.props.isSelected){
             console.log("contact not selected");
 
