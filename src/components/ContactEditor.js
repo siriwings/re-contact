@@ -32,8 +32,6 @@ class ContactEditor extends Component {
     }
 
     handleClick(){
-
-        //this.props.isSelected로 Contacts의 _isSelected 함수 사용(호출).
         if(!this.props.isSelected){
             console.log("contact not selected");
 
